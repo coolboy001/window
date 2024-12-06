@@ -48,7 +48,7 @@ To make sure your system can find Java, you need to set the **`JAVA_HOME`** envi
 #### Add Java to the `PATH`
 
 1. In the same **Environment Variables** window, under **System variables**, find the **Path** variable and click **Edit**.
-2. In the Edit window, click **New** and add the path to the `bin` directory inside the JDK folder (e.g., `C:\Program Files\Java\jdk-xx.x.x\bin`).
+2. In the Edit window, click **New** and add the path to the `bin` directory inside the JDK folder (e.g., `C:\Program Files\Java\jdk-xx.x.x\bin` or `%JAVA_HOME%\bin`).
 3. Click **OK** to close all the windows.
 
 ### 4. **Verify the Installation**
